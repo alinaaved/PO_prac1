@@ -1,4 +1,3 @@
-# games/gcd.py
 import random
 from math import gcd
 

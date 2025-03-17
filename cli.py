@@ -1,7 +1,7 @@
-import argparse  # Стандартная библиотека
+import argparse
 
-from engine import run_game  # Локальный модуль
-from games import gcd, progression  # Локальные модули
+from engine import run_game
+from games import gcd, progression
 
 GAMES = {
     "gcd": gcd,

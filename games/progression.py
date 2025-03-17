@@ -1,4 +1,3 @@
-# games/progression.py
 import random
 
 DESCRIPTION = "What number is missing in the progression?"

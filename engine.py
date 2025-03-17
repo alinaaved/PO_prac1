@@ -1,10 +1,9 @@
-# engine.py
 def run_game(game_module):
     print("Welcome to the Brain Games!")
     try:
-        name = input("May I have your name? ").encode('utf-8').decode('utf-8')
+        name = input("May I have your name? ")
     except UnicodeDecodeError:
-        name = input("May I have your name? ").encode('latin-1').decode('latin-1')
+        name = input("May I have your name? ")
 
     print(f"Hello, {name}!")
 
@@ -14,9 +13,9 @@ def run_game(game_module):
         question, correct_answer = game_module.generate_question()
         print(f"Question: {question}")
         try:
-            user_answer = input("Your answer: ").encode('utf-8').decode('utf-8')
+            user_answer = input("Your answer: ")
         except UnicodeDecodeError:
-            user_answer = input("Your answer: ").encode('latin-1').decode('latin-1')
+            user_answer = input("Your answer: ")
 
         if user_answer == correct_answer:
             print("Correct!")
