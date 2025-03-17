@@ -20,6 +20,7 @@ def play_rounds(game_module, name):
 
     return True
 
+
 def run_game(game_module):
     name = get_player_name()
     print(f"Hello, {name}!")
