@@ -3,5 +3,7 @@
 https://asciinema.org/a/RobS5Ci1jbNewpBbhyH8NPcxe
 
 чтобы запустить приложение в командной строке:
+
 python3 cli.py gcd - для наименьшего общего кратного
+
 python3 cli.py progression - для игры с прогрессией
